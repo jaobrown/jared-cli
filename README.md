@@ -15,11 +15,11 @@ A pointless tool for fun
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g jared
+$ npm install -g @kodacamp/jared
 $ jared COMMAND
 running command...
 $ jared (-v|--version|version)
-jared/0.0.1 darwin-x64 node-v13.7.0
+@kodacamp/jared/0.0.1 darwin-x64 node-v13.7.0
 $ jared --help [COMMAND]
 USAGE
   $ jared COMMAND
@@ -30,22 +30,16 @@ USAGE
 <!-- commands -->
 * [`jared affirm-me`](#jared-affirm-me)
 * [`jared help [COMMAND]`](#jared-help-command)
+* [`jared roast-me`](#jared-roast-me)
 * [`jared support-me`](#jared-support-me)
 
 ## `jared affirm-me`
 
-Describe the command here
+Use this command for affirmation.
 
 ```
 USAGE
   $ jared affirm-me
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
 ```
 
 _See code: [src/commands/affirm-me.js](https://github.com/jaobrown/jared-cli/blob/v0.0.1/src/commands/affirm-me.js)_
@@ -67,20 +61,24 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src/commands/help.ts)_
 
+## `jared roast-me`
+
+WARNING: EXPLICIT! But use this command when you're feeling cocky.
+
+```
+USAGE
+  $ jared roast-me
+```
+
+_See code: [src/commands/roast-me.js](https://github.com/jaobrown/jared-cli/blob/v0.0.1/src/commands/roast-me.js)_
+
 ## `jared support-me`
 
-Describe the command here
+Use this command for affirmation.
 
 ```
 USAGE
   $ jared support-me
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
 ```
 
 _See code: [src/commands/support-me.js](https://github.com/jaobrown/jared-cli/blob/v0.0.1/src/commands/support-me.js)_

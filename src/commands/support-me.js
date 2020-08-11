@@ -1,4 +1,6 @@
-const { Command, flags } = require("@oclif/command");
+const { Command } = require("@oclif/command");
+require("es6-promise").polyfill();
+require("isomorphic-fetch");
 
 class SupportMeCommand extends Command {
   async run() {
@@ -9,19 +11,13 @@ class SupportMeCommand extends Command {
         }
         return response.json();
       })
-      .then((compliment) => {
-        return this.log(compliment.compliment);
+      .then((support) => {
+        return this.log(support.compliment);
       });
   }
 }
 
-SupportMeCommand.description = `Describe the command here
-...
-Extra documentation goes here
+SupportMeCommand.description = `Use this command for affirmation.
 `;
-
-SupportMeCommand.flags = {
-  name: flags.string({ char: "n", description: "name to print" }),
-};
 
 module.exports = SupportMeCommand;

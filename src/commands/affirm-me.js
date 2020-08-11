@@ -1,4 +1,4 @@
-const { Command, flags } = require("@oclif/command");
+const { Command } = require("@oclif/command");
 require("es6-promise").polyfill();
 require("isomorphic-fetch");
 
@@ -17,13 +17,7 @@ class AffirmMeCommand extends Command {
   }
 }
 
-AffirmMeCommand.description = `Describe the command here
-...
-Extra documentation goes here
+AffirmMeCommand.description = `Use this command for affirmation.
 `;
-
-AffirmMeCommand.flags = {
-  name: flags.string({ char: "n", description: "name to print" }),
-};
 
 module.exports = AffirmMeCommand;
