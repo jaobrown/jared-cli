@@ -1,4 +1,6 @@
 const { Command } = require("@oclif/command");
+require("es6-promise").polyfill();
+require("isomorphic-fetch");
 
 class RoastMeCommand extends Command {
   async run() {
