@@ -19,7 +19,7 @@ $ npm install -g @kodacamp/jared
 $ jared COMMAND
 running command...
 $ jared (-v|--version|version)
-@kodacamp/jared/0.0.3 darwin-x64 node-v13.7.0
+@kodacamp/jared/0.0.4 darwin-x64 node-v13.7.0
 $ jared --help [COMMAND]
 USAGE
   $ jared COMMAND
@@ -41,7 +41,7 @@ USAGE
   $ jared affirm-me
 ```
 
-_See code: [src/commands/affirm-me.js](https://github.com/jaobrown/jared-cli/blob/v0.0.3/src/commands/affirm-me.js)_
+_See code: [src/commands/affirm-me.js](https://github.com/jaobrown/jared-cli/blob/v0.0.4/src/commands/affirm-me.js)_
 
 ## `jared help [COMMAND]`
 
@@ -69,5 +69,5 @@ USAGE
   $ jared support-me
 ```
 
-_See code: [src/commands/support-me.js](https://github.com/jaobrown/jared-cli/blob/v0.0.3/src/commands/support-me.js)_
+_See code: [src/commands/support-me.js](https://github.com/jaobrown/jared-cli/blob/v0.0.4/src/commands/support-me.js)_
 <!-- commandsstop -->
