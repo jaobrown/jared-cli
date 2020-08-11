@@ -1,7 +1,7 @@
 {
   "name": "@kodacamp/jared",
   "description": "A pointless tool for fun",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Jared Brown",
   "bin": {
     "jared": "./bin/run"
