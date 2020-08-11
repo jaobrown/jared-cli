@@ -1,0 +1,50 @@
+{
+  "name": "jared",
+  "description": "A pointless tool for fun",
+  "version": "0.0.1",
+  "author": "Jared Brown",
+  "bin": {
+    "jared": "./bin/run"
+  },
+  "bugs": "https://github.com/jaobrown/jared-cli/issues",
+  "dependencies": {
+    "@oclif/command": "^1.8.0",
+    "@oclif/config": "^1.17.0",
+    "@oclif/plugin-help": "^3.2.0",
+    "es6-promise": "^4.2.8",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.22.2",
+    "globby": "^10.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src"
+  ],
+  "homepage": "https://github.com/jaobrown/jared-cli",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "jared",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "jaobrown/jared-cli",
+  "scripts": {
+    "postpack": "rm -f oclif.manifest.json",
+    "prepack": "oclif-dev manifest && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
