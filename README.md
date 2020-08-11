@@ -30,7 +30,6 @@ USAGE
 <!-- commands -->
 * [`jared affirm-me`](#jared-affirm-me)
 * [`jared help [COMMAND]`](#jared-help-command)
-* [`jared roast-me`](#jared-roast-me)
 * [`jared support-me`](#jared-support-me)
 
 ## `jared affirm-me`
@@ -60,17 +59,6 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src/commands/help.ts)_
-
-## `jared roast-me`
-
-WARNING: EXPLICIT! But use this command when you're feeling cocky.
-
-```
-USAGE
-  $ jared roast-me
-```
-
-_See code: [src/commands/roast-me.js](https://github.com/jaobrown/jared-cli/blob/v0.0.3/src/commands/roast-me.js)_
 
 ## `jared support-me`
 
